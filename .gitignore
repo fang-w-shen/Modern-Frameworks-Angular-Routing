@@ -1,0 +1,7 @@
+lib/node_modules
+sass/
+lib/.sass-cache
+partials/song*
+data
+app/factory
+app/controllers/Song*

@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>NSS Starter Kit - Angular</title>
+  <link rel="stylesheet" href="lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body ng-app="routeApp" class="container">
+<a class="btn success" name="Highway2" href="#!/home" value="Home">Home</a>
+<a class="btn success" href="#!/blueridgeparkway" value="Highway1">Blue Ridge Parkway</a>
+<a class="btn success" href="#!/route66" value="Route66">Route 66</a>
+<h1>Angular Routing</h1>
+  <div ng-view>
+  	
+  </div>
+
+  <script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+  <script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+  <script src="app/app.js"></script>
+  <script type="text/javascript" src="app/controllers/highway1.js"></script>
+  <script type="text/javascript" src="app/controllers/highway2.js"></script>
+  	
+<!--   <script src="app/factory/SongFactory.js"></script>
+  <script src="app/controllers/SongDetailCtrl.js"></script>
+  <script src="app/controllers/SongListCtrl.js"></script>
+  <script src="app/controllers/SongFormCtrl.js"></script>
+  <script src="app/controllers/SongCtrl.js"></script> -->
+</body>
+</html>
